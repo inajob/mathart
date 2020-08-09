@@ -322,7 +322,7 @@ CALC = calc;
     $('#loading').append('<img src="load.gif">');
     $.ajax({
       method:'POST',
-      url:'https://webs.inajob.tk/imgup/up.php',
+      url:'https://webs.inajob.tk/imgup/up.php?title=' + encodeURIComponent("#mathart https://inajob.github.io/mathart/mathart.html"),
       data: encodeURIComponent(url),
       dataType:'json',
       processData: false,
